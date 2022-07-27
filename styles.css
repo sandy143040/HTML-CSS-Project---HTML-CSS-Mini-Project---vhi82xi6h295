@@ -4,7 +4,7 @@ body{
 }
 .navbar{
     height: 77px;
-    background-color:black;
+    background-color:#f44336 ;
 }
 .navbar img{
     height: 65px;
@@ -20,6 +20,18 @@ body{
     /* font-weight: 700; */
     color: aqua;
     font-size: 20px;
+}
+.navbar a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar a:hover::after{
+    width: 100%;
 }
 
 .main img{
