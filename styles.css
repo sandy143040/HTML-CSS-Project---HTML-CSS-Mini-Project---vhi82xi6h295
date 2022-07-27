@@ -1,1 +1,499 @@
+body{
+    margin: auto;
+    /* overflow: hidden; */
+}
+.navbar{
+    height: 77px;
+    background-color:black;
+}
+.navbar img{
+    height: 65px;
+    width: 70px;
+   /* float: left; */
+   padding-top: 10px;
 
+}
+.navbar a{
+    float: right;
+    padding: 25px 25px;
+    text-decoration: none;
+    /* font-weight: 700; */
+    color: aqua;
+    font-size: 20px;
+}
+
+.main img{
+    width: 100%;
+    height: 100vh;
+    background: fixed;
+}
+.main h1{
+    text-align: center;
+    margin-top: -200px;
+   font-size: 60px;
+   color:black;
+ 
+}
+.main p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -140px;
+    font-size: 40px;
+    color: black;
+}
+.content {
+    /* background-color: #f2f2f2; */
+    height: 100%;
+    width: 100%;
+    margin-top: 180px;
+}
+.content p{
+    text-align: center;
+    padding-top: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* padding-bottom: 60px; */
+}
+.leftside p{
+    color: grey;
+}
+.rightside p{
+    color: grey;
+
+}
+.item img{
+    width: 100%;
+    height:100vh;
+}
+.item{
+    position: relative;
+}
+.griditem{
+    height: 300px;
+   display: grid;
+   grid-template-columns: 180px 180px 180px;
+   grid-template-rows: 200px 200px;
+   grid-column-gap: 20px;
+   grid-row-gap: 20px;
+   margin-top: -500px;
+   position:absolute;
+  margin-left: 700px;
+
+
+}
+.griditem i{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+    background-color:black;
+    opacity: 0.6;
+    color: white;
+    line-height: 40px;
+}
+.history{
+    /* margin-top: 0px; */
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+    
+}
+.introduction{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows:400px 400px ;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+   justify-content: center;
+   padding: 100px 0px;
+}
+.introduction img{
+    height: 400px;
+    width: 400px;
+}.introduction h4{
+    text-align: center;
+    padding: 25px 20px 0px 20px;
+  
+}
+.introduction h3{
+    text-align: center;
+    padding: 5px 20px 0px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.introduction p{
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.introduction a{
+    /* text-decoration: none; */
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* text-decoration: underline; */
+   padding-left: 130px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.dishes{
+    background-color: #f1f1f1;
+
+}
+.dish1{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+
+}
+.dish1 h1{
+    text-align: justify;
+    padding: 120px 100px 0px 180px;
+    font-size: 50px;
+   
+}
+.dish1 p{
+    text-align: justify;
+    padding: 0px 100px 30px 180px;
+    font-size: 20px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+   
+}
+.dish1 a{
+    padding: 10px 100px 0px 180px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.dish1 img{
+    height: 520px;
+    width: 520px;
+    padding: 80px 100px 50px 50px;
+}
+.dish2{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+.dish2 img{
+    height: 520px;
+    width: 520px;
+    padding: 80px 0px 50px 100px;
+}
+.dish2 h4{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 160px 50px 0px 100px;
+}
+.dish2 h2{
+    font-size: 50px;
+    padding: 0px 50px 0px 100px;
+    
+}
+.dish2 p{
+    text-align: justify;
+    font-size: 22px;
+    padding: 0px 150px 0px 100px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+.dish2 h6{
+    font-size: 15px;
+    padding: 20px 50px 0px 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+} 
+.online-class h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.online-class p{
+    text-align: center;
+    font-size: 25px;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+}
+.images img{
+    height: 450px;
+    width: 446px;
+}
+.aboutus{
+    /* margin-top: -20px; */
+    height:250px ;
+    width: auto;
+    /* background-color: grey; */
+}
+.aboutus h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 180px 20px 180px ;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logos i{
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+
+
+
+@media screen and (max-width:800px) {
+    html,body{
+        width: 100%;
+        margin: auto;
+        overflow-x: hidden;
+    }
+    
+    .navbar{
+        height: 40px;
+        width: 100%;
+        background-color:black;
+    }
+    .navbar img{
+        height: 35px;
+        width: 35px;
+        padding: 2px 0px;
+    
+    }
+    .navbar a{
+        float: right;
+        padding: 10px 10px;
+        text-decoration: none;
+        color: aqua;
+        font-size: 13px;
+    }
+    .main img{
+        width: 100%;
+        height: 100vh;
+        background: fixed;
+    }
+    .main h1{
+        text-align: center;
+        margin-top: -180px;
+       font-size: 27px;
+       color:black;
+     
+    }
+    .main p{
+        text-align: center;
+        font-size: 25px;
+        /* font-weight: 500; */
+        margin-top: -130px;
+        color: black;
+    }
+    .content {
+        height: 100%;
+        width: 100%;
+        margin-top: 150px;
+    }
+    .content p{
+        text-align: center;
+        padding-top: 60px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .content h1{
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftside{
+        width: 100%;
+        color: grey;
+        text-align: center;
+    }
+    .rightside{
+        width: 100%;
+        color: grey;
+    }
+    .menu p{
+        padding: 15px;
+    }
+    .item img{
+        width: 100%;
+        height:450px;
+    }
+    .item{
+        position: relative;
+    }
+    .griditem{
+        width: 100%;
+        height: 250px;
+       display: grid;
+       grid-template-columns: 120px 120px ;
+       grid-template-rows: 115px 115px 115px;
+       grid-column-gap: 8px;
+       grid-row-gap: 8px;
+       margin-top: -400px;
+       position:absolute;
+      margin-left: 140px;
+    
+    
+    }
+    .griditem i{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 12px;
+        background-color:black;
+        opacity: 0.6;
+        color: white;
+        line-height: 20px;
+    }
+    .history{
+        margin-top: -4px;
+        height: 100%;
+        width: 100%;
+        background-color: beige;
+        
+    }
+    .introduction{
+        display: flex;
+        flex-direction: column;
+    }
+    .introduction img{
+        height: 450px;
+        width: 90%;
+        padding: 10px 20px;
+    }
+    .introduction h4{
+        text-align: center;
+        padding: 25px 20px 0px 20px;
+      
+    }
+    .introduction h3{
+        text-align: center;
+        padding: 5px 20px 0px 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .introduction p{
+        text-align: center;
+        padding: 10px 70px 10px 70px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .introduction a{
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+       padding: 0px 125px 0px 125px;
+
+    }
+    .dishes{
+        background-color: #f1f1f1;
+        width: 100%;
+    }
+    .dish1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        
+    }
+    .dish1 h1{
+        text-align: center;
+        padding: 30px 0px 0px 10px;
+        font-size: 25px;
+       
+    }
+    .dish1 p{
+        padding: 3px 20px 0px 20px;
+        text-align: center;
+        font-size: 15px;
+        /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+       
+    }
+    .dish1 a{
+        padding: 10px 0px 0px 135px;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+    }
+    .dish1 img{
+        height: 450px;
+        width: 90%;
+        padding: 10px 20px;
+    }
+    .dish2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .dish2 img{
+        height: 450px;
+        width: 90%;
+        padding: 10px 20px;
+    }
+    .dish2 h4{
+        font-size: 20px;
+        text-align: justify;
+        font-weight: 100;
+        padding: 50px 0px 0px 50px;
+    }
+    .dish2 h2{
+        font-size: 30px;
+        padding: 0px 0px 0px 50px;
+        
+    }
+    .dish2 p{
+        text-align: justify;
+        font-size: 15px;
+        padding: 0px 5px 0px 50px;
+        /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    }
+    .dish2 h6{
+        font-size: 15px;
+        padding: 0px 0px 0px 50px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    } 
+    .online-class{
+        width: 100%;
+    }
+    .online-class h1{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .online-class p{
+        text-align: center;
+        font-size: 17px;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+    }
+    .images img{
+        height: 400px;
+        width: 100%;
+    }
+    .aboutus{
+        width: 100%;
+    }
+    .aboutus h3{
+        font-size: 17px;
+        text-align: center;
+        padding: 40px 0px 20px 0px ;
+    }
+    .logos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .logos i{
+        padding-right: 10px;
+        font-size: 25px;
+    }
+    
+    
+}
